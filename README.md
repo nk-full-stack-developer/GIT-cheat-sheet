@@ -18,8 +18,15 @@ git add _FILE_NAME_
 git add README.md
 </pre>
 
-#### Create commit in GIT repository
+#### Create commit and push in GIT repository
 git commit -m "meaningful message for your changes"
 <pre>
 git commit -m "Added new commands for Basic GIT commands"
+git push origin <BRANCH_NAME>
+</pre>
+
+#### Create new branch
+git checkout -b <BRANCH_NAME>
+<pre>
+git checkout -b develop
 </pre>
